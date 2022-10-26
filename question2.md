@@ -4,7 +4,7 @@
 
 '''
 promoter = "AAATATTATTTAAAATA"
-5_prime_UTR = "AAATTGGGGTTCCAAA"
+five_prime_UTR = "AAATTGGGGTTCCAAA"
 start_codon = "AUG"
 exon1 = "AAATUGGTTUUUAAAGG"
 intron = "AAAAGGTTTTAGTTGATGA"
@@ -12,6 +12,6 @@ exon2 = "GTACCGAGGTTTAACCC"
 stop_codon = "UAA"
 3_prime_UTR = "TTTAATTTAAAATAATT"
 
-my_fav_gene = promoter + 5_prime_UTR + start_codon + exon1 + intron + exon2 + stop_codon + 3_prime_UTR
+my_fav_gene = promoter + 5_prime_UTR + start_codon + exon1 + intron + exon2 + stop_codon + three_prime_UTR
 print("my favourite gene sequence is as follows:")
 
